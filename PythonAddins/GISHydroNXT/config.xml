@@ -1,0 +1,51 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>GISHydroNXT</Name><AddInID>{8f09fed5-7161-4ab5-add6-77b6d58623ee}</AddInID><Description>GIS-Based Hydrologic Modeling Tool</Description><Version>1.0</Version><Image>Images\HYDROLOGY.gif</Image><Author>UMD-CEE</Author><Company>UMD-CEE</Company><Date>06/17/2019</Date><Targets><Target name="Desktop" version="10.5" /></Targets><AddIn language="PYTHON" library="GISHydroNXT_addin.py" namespace="GISHydroNXT_addin"><ArcMap>
+    <Commands>
+        <Tool caption="Area Of Interest" category="Python Addin" class="AreaOfInterest" id="GISHydroNXT_addin.tool1" image="Images\A.png" message="" tip=""><Help heading="" /></Tool>
+        <Tool caption="Watershed Delineation" category="Python Addin" class="WatershedDelineation" id="GISHydroNXT_addin.tool2" image="Images\W.png" message="" tip=""><Help heading="" /></Tool>
+        <Tool caption="Control Boundaries" category="Python Addin" class="ControlBoundaries" id="GISHydroNXT_addin.tool3" image="Images\Slice.png" message="" tip=""><Help heading="" /></Tool>
+        <Tool caption="Land Use Editor" category="Python Addin" class="LandUseEditor" id="GISHydroNXT_addin.tool7" image="Images\L.png" message="" tip=""><Help heading="" /></Tool>
+        <Button caption="Reset" category="Python Addin" class="ResetWatershed" id="GISHydroNXT_addin.button1" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Basin Composition" category="Python Addin" class="BasinComposition" id="GISHydroNXT_addin.button2" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Calculate Basin Statistics" category="Python Addin" class="BasinStatistics" id="GISHydroNXT_addin.button3" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Calculate Thomas Discharge" category="Python Addin" class="ThomasDischarge" id="GISHydroNXT_addin.button4" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Compare Discharges" category="Python Addin" class="CompareDischarges" id="GISHydroNXT_addin.button5_1" image="" message="" tip=""><Help heading="" /></Button>
+        <Tool caption="Flow Paths" category="Python Addin" class="FlowPaths" id="GISHydroNXT_addin.tool4" image="Images\S.png" message="" tip=""><Help heading="" /></Tool>
+        <Tool caption="Add Subwatershed Outlets" category="Python Addin" class="AddSubwatershedOutlets" id="GISHydroNXT_addin.tool5" image="Images\O.png" message="" tip=""><Help heading="" /></Tool>
+        <Button caption="Reset" category="Python Addin" class="ResetSubWatershed" id="GISHydroNXT_addin.button5" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Add Streams" category="Python Addin" class="AddStreams" id="GISHydroNXT_addin.button6" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Add Outlets" category="Python Addin" class="AddOutlets" id="GISHydroNXT_addin.button7" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Delineate Subwatersheds" category="Python Addin" class="DelineateSubwatersheds" id="GISHydroNXT_addin.button8" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Set Tc Parameters" category="Python Addin" class="SetTcParameters" id="GISHydroNXT_addin.button9" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Calculate Attributes" category="Python Addin" class="CalculateAttributes" id="GISHydroNXT_addin.button10" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Combine Longest Flow Path Segments" category="Python Addin" class="CombineLongestFlowPathSegments" id="GISHydroNXT_addin.button11" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Write Sub-Area Land Use Distribution" category="Python Addin" class="WriteSubAreaLandUseDistribution" id="GISHydroNXT_addin.button12" image="" message="" tip=""><Help heading="" /></Button>
+        <Tool caption="Transect Line" category="Python Addin" class="TransectLine" id="GISHydroNXT_addin.tool6" image="Images\X.png" message="" tip=""><Help heading="" /></Tool>
+	<Tool caption="Add Reservoir" category="Python Addin" class="Reservoir" id="GISHydroNXT_addin.tool8" image="Images\R.png" message="" tip=""><Help heading="" /></Tool>
+	<Button caption="Reset" category="Python Addin" class="ResetControlPanel" id="GISHydroNXT_addin.button25" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Precipitation Depths" category="Python Addin" class="PrecipitationDepths" id="GISHydroNXT_addin.button13" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Control Panel" category="Python Addin" class="ControlPanel" id="GISHydroNXT_addin.button14" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Run WinTR-20" category="Python Addin" class="ExecuteTR20" id="GISHydroNXT_addin.button15" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Create Contours" category="Python Addin" class="CreateContours" id="GISHydroNXT_addin.button16" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="System Documentation (HTML)" category="Python Addin" class="HelpHTML" id="GISHydroNXT_addin.button17" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Technical Reference" category="Python Addin" class="HelpTechRef" id="GISHydroNXT_addin.button18" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Training Manual" category="Python Addin" class="HelpTrainingManual" id="GISHydroNXT_addin.button19" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Manual Tool Guide" category="Python Addin" class="HelpManualToolGuide" id="GISHydroNXT_addin.button20" image="" message="" tip=""><Help heading="" /></Button>
+        <Button caption="About" category="Python Addin" class="HelpAbout" id="GISHydroNXT_addin.button21" image="" message="" tip=""><Help heading="" /></Button>
+	<Button caption="Load Progress" category="Python Addin" class="LoadButton" id="GISHydroNXT_addin.button23" image="" message="" tip=""><Help heading="" /></Button>
+	<Button caption="Reset All" category="Python Addin" class="ResetGlobal" id="GISHydroNXT_addin.button24" image="" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        <Extension autoLoad="true" category="Python Addin" class="wxPython" description="" id="GISHydroNXT_addin.wxPython" name="wx Python" productName="wx Python" showInExtensionDialog="true" />
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="GISHydroNXT" category="Python Addin" id="GISHydroNXT_addin.gishydronxt" showInitially="true"><Items><Tool refID="GISHydroNXT_addin.tool1" /><Tool refID="GISHydroNXT_addin.tool2" /><Tool refID="GISHydroNXT_addin.tool7" /><Tool refID="GISHydroNXT_addin.tool3" /><Menu refID="GISHydroNXT_addin.hydro" /><Tool refID="GISHydroNXT_addin.tool4" /><Tool refID="GISHydroNXT_addin.tool5" /><Menu refID="GISHydroNXT_addin.crwr" /><Tool refID="GISHydroNXT_addin.tool6" /><Tool refID="GISHydroNXT_addin.tool8" /><Menu refID="GISHydroNXT_addin.tr20" /><Menu refID="GISHydroNXT_addin.surface" /><Menu refID="GISHydroNXT_addin.options" /><Menu refID="GISHydroNXT_addin.help" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        <Menu caption="Hydro" category="Python Addin" id="GISHydroNXT_addin.hydro" isRootMenu="false" isShortcutMenu="false" separator="false"><Items><Button refID="GISHydroNXT_addin.button1" /><Button refID="GISHydroNXT_addin.button2" /><Button refID="GISHydroNXT_addin.button3" /><Button refID="GISHydroNXT_addin.button4" /><Button refID="GISHydroNXT_addin.button5_1" /></Items></Menu>
+        <Menu caption="CRWR-PrePro" category="Python Addin" id="GISHydroNXT_addin.crwr" isRootMenu="false" isShortcutMenu="false" separator="false"><Items><Button refID="GISHydroNXT_addin.button5" /><Button refID="GISHydroNXT_addin.button6" /><Button refID="GISHydroNXT_addin.button7" /><Button refID="GISHydroNXT_addin.button8" /><Button refID="GISHydroNXT_addin.button9" /><Button refID="GISHydroNXT_addin.button10" /><Button refID="GISHydroNXT_addin.button11" /><Button refID="GISHydroNXT_addin.button12" /></Items></Menu>
+        <Menu caption="WinTR-20" category="Python Addin" id="GISHydroNXT_addin.tr20" isRootMenu="false" isShortcutMenu="false" separator="false"><Items><Button refID="GISHydroNXT_addin.button25" /><Button refID="GISHydroNXT_addin.button13" /><Button refID="GISHydroNXT_addin.button14" /><Button refID="GISHydroNXT_addin.button15" /></Items></Menu>
+        <Menu caption="Surface" category="Python Addin" id="GISHydroNXT_addin.surface" isRootMenu="false" isShortcutMenu="false" separator="false"><Items><Button refID="GISHydroNXT_addin.button16" /></Items></Menu>
+        <Menu caption="Help" category="Python Addin" id="GISHydroNXT_addin.help" isRootMenu="false" isShortcutMenu="false" separator="false"><Items><Button refID="GISHydroNXT_addin.button18" /><Button refID="GISHydroNXT_addin.button19" /><Button refID="GISHydroNXT_addin.button20" /><Button refID="GISHydroNXT_addin.button17" /><Button refID="GISHydroNXT_addin.button21" /></Items></Menu>
+        <Menu caption="Options" category="Python Addin" id="GISHydroNXT_addin.options" isRootMenu="false" isShortcutMenu="false" separator="false"><Items><Button refID="GISHydroNXT_addin.button23" /><Button refID="GISHydroNXT_addin.button24" /></Items></Menu>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
